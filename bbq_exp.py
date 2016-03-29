@@ -10,7 +10,7 @@ design = project.get_design("Design")
 
 bbq_exp = bbq.Bbq(project, design, append_analysis=False, calculate_H=True)
 
-bbq_exp.do_bbq("LJ", surface=True, seams=["seam1"])
+bbq_exp.do_bbq("LJ1", surface=True, seams=["seam1"])
 
 #bbq_exp.bbq_analysis.plot_Hparams()
 
